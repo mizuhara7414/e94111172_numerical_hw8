@@ -1,9 +1,6 @@
 import numpy as np
 from scipy.integrate import quad
 
-print("第三題：離散最小平方三角多項式")
-print("="*50)
-
 # 給定函數 f(x) = x² sin(x) 在區間 [0,1]，使用 m = 16
 def f(x):
     return x**2 * np.sin(x)
